@@ -4,6 +4,16 @@
 
 #### Day 1
 
+0)  Все связанное с окружением:
+
+[`Питон_скачать_онлайн_без_регистрации`](https://www.python.org/downloads/) 
+
+[`Онлайн версия для ленивых`](https://www.tutorialspoint.com/execute_python_online.php) 
+
+[`Пайчарм_скачать_онлайн_без_регистрации`](https://www.jetbrains.com/pycharm/download/#section=windows) 
+
+[`Юпитерский ноутбук`](http://jupyter.org) 
+
 1)  Ссылки на питонячие ресурсы:
 
 [`Чайничный ресурс`](https://pythonworld.ru) 
