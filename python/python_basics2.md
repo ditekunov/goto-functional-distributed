@@ -65,10 +65,10 @@ pipeline_each() перебирает группы по одной, и перед
     def set_canada_as_country(resident):
         return assoc(resident, 'country', "Canada")
 
-    def strip_punctuation_from_name(band):
+    def strip_punctuation_from_name(resident):
         return assoc(resident, 'name', resident['name'].replace('1', ''))
 
-    def capitalize_names(band):
+    def capitalize_names(resident):
         return assoc(resident, 'name', resident['name'].title())
 
 
