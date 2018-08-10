@@ -56,20 +56,20 @@ pipeline_each() перебирает группы по одной, и перед
 
 Посмотрим на функции преобразования.
 
-def assoc(_d, key, value):
-    from copy import deepcopy
-    d = deepcopy(_d)
-    d[key] = value
-    return d
+    def assoc(_d, key, value):
+        from copy import deepcopy
+        d = deepcopy(_d)
+        d[key] = value
+        return d
 
-def set_canada_as_country(resident):
-    return assoc(resident, 'country', "Canada")
+    def set_canada_as_country(resident):
+        return assoc(resident, 'country', "Canada")
 
-def strip_punctuation_from_name(band):
-    return assoc(resident, 'name', resident['name'].replace('1', ''))
+    def strip_punctuation_from_name(band):
+        return assoc(resident, 'name', resident['name'].replace('1', ''))
 
-def capitalize_names(band):
-    return assoc(resident, 'name', resident['name'].title())
+    def capitalize_names(band):
+        return assoc(resident, 'name', resident['name'].title())
 
 
 Каждая связывает ключ группы с новым значением. Без изменения оригинальных данных это тяжело сделать, поэтому мы решаем это с помощью assoc(). Она использует deepcopy() для создания копии переданного словаря. Каждая функция преобразовывает копию и возвращает эту копию.
