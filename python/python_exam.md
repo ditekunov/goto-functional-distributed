@@ -10,7 +10,7 @@
 #### 3) Является ли данная рекурсия хвостовой?
 
     def rec(a, b):
-        if rec(a + 1, rec(1, b - 1) == 0):
+        if rec(a + 1, rec(1, b - 1)) == 0:
             return 1
         elif a == 1:
             return 0
