@@ -39,6 +39,8 @@
 
 [`Основные задачки на ФП в Scala - 1`](scala/scalaBasics.md)
 
+[`Сложные задачки на ФП в Scala`](scala/scalaBasics2.md)
+
 #### Day 3
 
 #### Day 4
