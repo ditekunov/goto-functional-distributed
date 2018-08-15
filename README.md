@@ -55,6 +55,14 @@
 
 #### Day 4
 
+[`Основные задачки на ФП в Scala - 3`](scala/scala4.md)
+
+[`Сложные задачки на ФП в Scala - 3`](scala/scala4Advanced.md)
+
+[`Домашка по Scala - 2`](scala/scala4Home.md)
+
+[`Экзамен за блок по Scala`](scala/scalaExam.md)
+
 #### Day 6
 
 #### Day 7
