@@ -45,7 +45,7 @@
 
 [`Основные задачки на ФП в Scala - 2`](scala/scala3.md)
 
-[`Сложные задачки на ФП в Scala - 2`](scala/scala3Advaced.md)
+[`Сложные задачки на ФП в Scala - 2`](scala/scala3Advanced.md)
 
 [`Оп домашка оп`](scala/scala3Home.md)
 
