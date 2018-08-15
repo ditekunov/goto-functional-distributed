@@ -45,6 +45,8 @@
 
 [`Основные задачки на ФП в Scala - 2`](scala/scala3.md)
 
+[`Оп домашка оп`](scala/scala3_home.md)
+
 #### Day 4
 
 #### Day 6
