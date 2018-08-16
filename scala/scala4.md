@@ -23,9 +23,7 @@
 
         object UsefulFuture {
         
-            implicit class UsefulFuture[T](future: Future[T])(implicit ec: ExecutionContext) {
             ...
-            }
         }
 
 #### 1) Реализуйте функцию, которая безопасно находит результ деления одного числа на другое при любом наборе данных
