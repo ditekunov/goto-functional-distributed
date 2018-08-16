@@ -44,9 +44,9 @@ https://ru.wikipedia.org/wiki/Азбука_Морзе
 
 Пример:
 
-isSorted(List(1,2,3,4,5,6), 5) == True
+hasElement(List(1,2,3,4,5,6), 5) == True
 
-isSorted(List(a,b,c,d,e), y) == False
+hasElement(List(a,b,c,d,e), y) == False
 
 #### 5) Напишите функцию сортировки вставками (БЕЗ циклов)
 
