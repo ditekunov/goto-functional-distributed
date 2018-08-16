@@ -31,26 +31,26 @@
 
         
 #### 2) Реализуйте функцию 
-    def bypassOnComplete[A](function: T => A): Future[T] = {
+    def bypassOnComplete[A](future: Future[A], function: T => A): Future[T] = {
     ...
     
 Которая применяет функцию function к результату исполнения футуры, при этом возвращаю саму футуру
 
 
 #### 3) Реализуйте функцию 
-    def ifFailure(functionFail: => Unit, exception: Option[Throwable] = None): Future[T] = {
+    def ifFailure(future: Future[A], functionFail: => Unit, exception: Option[Throwable] = None): Future[T] = {
     ...
     
 Которая выбрасывает переданный в качестве аргумента Exception, если футура failed, применяя переданную функцию перед этим.
 
 #### 4) Реализуйте функцию
-    def completeAndThen(anotherFuture: Future[T]): Future[T] = {
+    def completeAndThen(future: Future[A], anotherFuture: Future[T]): Future[T] = {
     ...
     
 Которая выполняет первую футуру и потом возвращает вторую футуру в случае, если первая выполнилась.
 
 #### 5) Реализуйте функцию
-    def completeAndThenComplete(anotherFuture: Future[T]) = {
+    def completeAndThenComplete(future: Future[A], anotherFuture: Future[T]) = {
     ...
     
 Которая выполняет первую футуру и затем выполняет втторую футуру, если первая выполнилась.
