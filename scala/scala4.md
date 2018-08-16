@@ -19,6 +19,14 @@
   
 Годная статья по использованию Futures: http://groz.github.io/scala/intro/futures/
   
+### ДИСКЛЕЙМЕР: важно! выполняйте все задания из этого блока, поместив их внутри следующей конструкции:
+
+        object UsefulFuture {
+        
+            implicit class UsefulFuture[T](future: Future[T])(implicit ec: ExecutionContext) {
+            ...
+            }
+        }
 
 #### 1) Реализуйте функцию, которая безопасно находит результ деления одного числа на другое при любом наборе данных
 
