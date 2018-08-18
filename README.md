@@ -61,13 +61,13 @@
 
 #### Day 5
 
-Проект 1: [`Милости прошу к нашему шалашу`](projects/project1.md)
+[`Проект 1`](projects/project1.md)
 
-[`Код из задания`](web/routeExample.scala) 
+[`Код с пары`](web/routeExample.scala) 
 
 #### Day 6
 
-[`Код из задания`](web/actorExample.scala)
+[`Код с пары`](web/actorExample.scala)
 
 #### Day 7
 
