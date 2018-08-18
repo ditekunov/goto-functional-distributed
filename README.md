@@ -49,10 +49,6 @@
 
 [`Оп домашка оп`](scala/scala3Home.md)
 
-## Проект 1:
-
-[`Милости прошу к нашему шалашу`](projects/project1.md)
-
 #### Day 4
 
 [`Основные задачки на ФП в Scala - 3`](scala/scala4.md)
@@ -63,7 +59,15 @@
 
 [`Экзамен за блок по Scala`](scala/scalaExam.md)
 
+#### Day 5
+
+##### Проект 1: [`Милости прошу к нашему шалашу`](projects/project1.md)
+
+##### [`Код из задания`](web/routeExample.scala) 
+
 #### Day 6
+
+##### [`Код из задания`](web/actorExample.scala)
 
 #### Day 7
 
