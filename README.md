@@ -77,7 +77,7 @@
 
 #### Day 9
 
-[`Базовый стек задач на SQL`](sql/basics.scala)
+[`Базовый стек задач на SQL`](sql/basics.md)
 
 #### Day 10
 
