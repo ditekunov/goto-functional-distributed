@@ -82,4 +82,6 @@
 #### Day 10
 
 #### Day 11
-[`Экзамен по курсу КРС`](final/exam.md)
+[`Теория`](final/theory.md)
+[`Задачи`](final/tasks.md)
+[`Практика`](final/theory.md)
