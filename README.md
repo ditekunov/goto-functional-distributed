@@ -82,6 +82,8 @@
 #### Day 10
 
 #### Day 11
+It is exam my Dudes
+
 [`Теория`](final/theory.md)
 [`Задачи`](final/tasks.md)
 [`Практика`](final/theory.md)
