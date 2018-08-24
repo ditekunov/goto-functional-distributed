@@ -86,4 +86,4 @@ It is exam my Dudes
 
 [`Теория`](final/theory.md)
 [`Задачи`](final/tasks.md)
-[`Практика`](final/theory.md)
+[`Практика`](final/practice.md)
